@@ -18,13 +18,11 @@
 							{
 								"color":"black",
 								"float":"right",
-								"fontSize":"20rpx",
+								"fontSize":"20px",
 								"fontSrc":"/static/iconfont.ttf",
 								"text":"\ue668"
-								
 							}
 						]
-						
 					}
 				}
 			}
