@@ -38,7 +38,7 @@
 		</view>
 		<!-- 图片 -->
 		<image :src="item.titlepic" v-if="item.titlepic" @click="openDetail"
-		style="height: 350rpx;" class="rounded w-100">
+		style="height: 350rpx; width: 100%;" class="rounded">
 		</image>
 		
 		
