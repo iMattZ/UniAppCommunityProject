@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/news/news",
     "pages/msg/msg",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/search/search",
+    "pages/add-input/add-input"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -51,5 +53,8 @@
   },
   "appname": "社区类app",
   "compilerVersion": "2.3.6",
-  "usingComponents": {}
+  "usingComponents": {
+    "divider": "/component/common/divider",
+    "no-thing": "/component/common/no-thing"
+  }
 }

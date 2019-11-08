@@ -4932,6 +4932,13 @@ to {
 }
 }
 /* 引入动画库 */
+
+/* scroll-view */
+.scroll-row{ width: 100%;white-space: nowrap;
+}
+.scroll-row-item{ display: inline-block!important;
+}
+
 /* 图标 */
 .iconfont{
 	font-family:iconfont;
@@ -5468,5 +5475,8 @@ to {
 /* 全局的css样式库 */
 .bg-main {
 	background-color: #FC5C82;
+}
+.text-main {
+	color: #FC5C82;
 }
 

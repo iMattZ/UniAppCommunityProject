@@ -1,0 +1,6 @@
+{
+  "titleNView": false,
+  "usingComponents": {
+    "uni-nav-bar": "/component/uni-ui/uni-nav-bar/uni-nav-bar"
+  }
+}

@@ -12,13 +12,16 @@
       {
         "color": "black",
         "float": "right",
-        "fontSize": "20rpx",
+        "fontSize": "20px",
         "fontSrc": "/static/iconfont.ttf",
         "text": ""
       }
     ]
   },
   "usingComponents": {
-    "common-list": "/component/common/common-list"
+    "divider": "/component/common/divider",
+    "no-thing": "/component/common/no-thing",
+    "common-list": "/component/common/common-list",
+    "load-more": "/component/common/load-more"
   }
 }

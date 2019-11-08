@@ -147,6 +147,23 @@
 			// 生成数据
 			this.getData();
 		},
+		
+		// 监听点击导航栏输入框
+		onNavigationBarSearchInputClicked() {
+			uni.navigateTo({
+				url:'../search/search'
+			})
+			
+		},
+		
+		// 监听导航栏按钮的事件
+		onNavigationBarButtonTap(e) {
+			if(e.index === 0) {
+				uni.navigateTo({
+					url:'../add-input/add-input'
+				})
+			}
+		},
 		methods: {
 			
 			getData(){
